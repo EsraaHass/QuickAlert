@@ -15,7 +15,7 @@ class QuickAlertButtons extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(top: 10.0),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           cancelBtn(context),
           options.type != QuickAlertType.loading
