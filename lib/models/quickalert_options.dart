@@ -45,6 +45,9 @@ class QuickAlertOptions {
   /// Color for confirm button
   Color? confirmBtnColor;
 
+  /// Color for cancel button
+  Color? cancelBtnColor;
+
   /// TextStyle for confirm button
   TextStyle? confirmBtnTextStyle;
 
@@ -121,6 +124,8 @@ class QuickAlertOptions {
 
     /// Color for confirm button
     this.confirmBtnColor,
+
+    this.cancelBtnColor,
 
     /// TextStyle for confirm button
     this.confirmBtnTextStyle,
